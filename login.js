@@ -26,7 +26,7 @@ login=(e)=> {
         localStorage.setItem('token', data.token)
         localStorage.setItem('user_id', data.user_id)
         if (data.token) {
-            window.location.href = 'home.html';
+            window.location.href = 'index.html';
             location.reload()
         }
         console.log(data)

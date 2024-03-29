@@ -10,7 +10,7 @@ const navfun =() =>{
         <h1 class="text-red font-bold text-2xl">E-Shop</h1>
     </div>
     <div>
-        <a class="" href="home.html">Home</a>
+        <a class="" href="index.html">Home</a>
         <a class=" mx-3 " href="product.html">Prouducts</a>
         <a  href="profile.html"  class="mx-3" > Profile </a>
 
@@ -28,7 +28,7 @@ const navfun =() =>{
             <h1 class="text-red font-bold text-2xl">E-Shop</h1>
         </div>
         <div>
-            <a class="" href="home.html">Home</a>
+            <a class="" href="index.html">Home</a>
             <a class=" mx-3 " href="product.html">Prouducts</a>
         </div>
         <div>
@@ -57,7 +57,7 @@ const logout =() =>{
         <h1 class="text-red font-bold text-2xl">E-Shop</h1>
     </div>
     <div>
-        <a class="" href="home.html">Home</a>
+        <a class="" href="index.html">Home</a>
         <a class=" mx-3 " href="product.html">Prouducts</a>
     </div>
     <div>
