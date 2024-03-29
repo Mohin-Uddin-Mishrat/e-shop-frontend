@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+</head>
+
+<body>
+
+  <body>
+    <nav id="nav" class=" mx-auto flex justify-between items-center bg-black text-white px-10 py-5 round">
+           
+    </nav>
+
+
+
+    <section class="my-5">
+      <div class="container mx-auto ">
+        <div class=" grid grid-cols-4  gap-4">
+
+          <div class="">
+
+            <button onclick="loadProduct('price')" class="p-3 my-5 bg-black text-white font-semibold rounded block">Sort
+              By Price</button>
+
+            <h1 class="tex-bold text-2xl font-bold underline mb-3">Size </h1>
+            <button onclick="loadProduct('S')"
+              class="p-1 bg-black text-white font-semibold rounded mb-1 mr-1">S</button>
+            <button onclick="loadProduct('M')" class="p-1 bg-black text-white font-semibold rounded m-1">M</button>
+            <button onclick="loadProduct('L')" class="p-1 bg-black text-white font-semibold rounded m-1">L</button>
+            <button onclick="loadProduct('XL')" class="p-1 bg-black text-white font-semibold rounded m-1">XL</button>
+            <h1 class="tex-bold text-2xl font-bold underline mb-3">Colour </h1>
+
+            <button onclick="loadProduct('Red')"
+              class="p-1 bg-black text-white font-semibold rounded mb-1 mr-1">Red</button>
+            <button onclick="loadProduct('Blue')"
+              class="p-1 bg-black text-white font-semibold rounded m-1">Blue</button>
+            <button onclick="loadProduct('White')"
+              class="p-1 bg-black text-white font-semibold rounded m-1">White</button>
+            <button onclick="loadProduct('Yellow')"
+              class="p-1 bg-black text-white font-semibold rounded m-1">Yellow</button>
+
+          </div>
+
+          <div id="cards" class="col-span-3  grid grid-cols-4 gap-4">
+
+
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <script src="product.js"></script>
+    <script src="nav.js"></script>
+
+  </body>
+
+</html>

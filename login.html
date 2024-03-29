@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+</head>
+
+<body>
+
+    <body>
+        <nav id="nav" class=" mx-auto flex justify-between items-center bg-black text-white px-10 py-5 round">
+           
+        </nav>
+
+
+        <div class="md:w-1/3 mx-auto p-10 bg-purple-200 rounded-lg">
+            <h1 class=" italic text-3xl text-center">Registration Form</h1>
+
+            <form>
+
+                <p id="para"></p>
+                <h1 class="italic font-bold">username :</h1>
+                <input id="name" type="text"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="John" required />
+
+
+                <h1 class="italic font-bold">Password :</h1>
+                <input id="pass" type="password"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="John" required />
+
+
+                <input id="loginbutton"
+                    class="text-white bg-gray-50 hover:bg-blue-800 w-full mt-2 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    type="submit" value="submit">
+            </form>
+
+        </div>
+        <script src="login.js"></script>
+        <script src="nav.js"></script>
+
+    </body>
+
+</html>
